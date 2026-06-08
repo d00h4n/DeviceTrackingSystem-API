@@ -2,7 +2,7 @@
 
 **🟢 Live Demo:** [https://devicetrackingsystem-api.onrender.com/](https://devicetrackingsystem-api.onrender.com/)
 
-A lightweight, full-stack web application built for tracking and managing company software/tools and hardware devices. Developed using C# .NET Core Minimal APIs and a vanilla HTML/JS frontend with Bootstrap 5.
+A Simple light weight web application built for tracking and managing company software/tools and hardware devices. Developed using C# .NET Core Minimal APIs and a vanilla HTML/JS frontend with Bootstrap 5.
 
 ## 🚀 Features
 * **Device Management (CRUD):** Add, Edit, Update Status, and Delete devices.
@@ -29,6 +29,21 @@ The system utilizes a relational database design with two primary tables:
    ```bash
    git clone [https://github.com/d00h4n/DeviceTrackingSystem-API.git](https://github.com/d00h4n/DeviceTrackingSystem-API.git)
    
+2. Navigate project directory
 
+   ```bash
+   cd DeviceTrackingSystem-API
 
-https://devicetrackingsystem-api.onrender.com/
+   
+3. Apply Entity Framework migrations to create the SQLite database:
+
+   ```bash
+   dotnet ef database update
+
+4. Run app
+
+   ```bash
+   dotnet run
+
+   
+
